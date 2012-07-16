@@ -25,11 +25,12 @@ def does_file_exist(filename):
 def get_link(match):
   html_filename = get_html_filename(match)
   html_classes = []
+  human_match = clean_human(match)
   if not does_file_exist(get_markup_filename(match)):
     html_classes.append("error404")
-    return """<a class="{html_class}" href="./404.html#{match}md">{match}</a>""".format(html_filename=html_filename, match=match, html_class=" ".join(html_classes))
+    return """<a class="{html_class}" href="./404.html#{match}md">{human_match}</a>""".format(human_match=human_match, html_filename=html_filename, match=match, html_class=" ".join(html_classes))
   else: 
-    return """<a class="{html_class}" href="{html_filename}">{match}</a>""".format(html_filename=html_filename, match=match, html_class=" ".join(html_classes))
+    return """<a class="{html_class}" href="{html_filename}">{human_match}</a>""".format(human_match=human_match, html_filename=html_filename, match=match, html_class=" ".join(html_classes))
 
 print "#%s" % clean_human(sys.argv[1])
 for line in sys.stdin:
