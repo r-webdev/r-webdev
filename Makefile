@@ -1,8 +1,7 @@
 all:
 	@./build/build.sh
 init:
-	@git submodule update;cd build/marked;make;
-
+	@./build/init.sh
 
 clean:
 	@rm *.html
