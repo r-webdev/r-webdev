@@ -1,3 +1,5 @@
+If you want to make changes to this website you can fork this repo <a href="http://github.com/r-webdev/r-webdev">http://github.com/r-webdev/r-webdev</a> and make changes to the markup (.md) files. When you have made some changes, send a pull request and the site will be updated shortly. 
+
 ###In order to contribute a change to this site:
 * Make a github account
 * set up a <a href="https://github.com/r-webdev/r-webdev/fork_select">fork</a> of <a href="https://github.com/r-webdev/r-webdev/">this repository</a>
