@@ -231,7 +231,7 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
-a.404 {
+a.error404 {
   color: red;
 
 }

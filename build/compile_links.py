@@ -19,7 +19,7 @@ for line in sys.stdin:
       html_filename = get_html_filename(match)
       html_classes = []
       if not does_file_exist(get_markup_filename(match)):
-        html_classes.append("404")
+        html_classes.append("error404")
 
       match = """<a class="{html_class}" href="{html_filename}">{match}</a>""".format(html_filename=html_filename, match=match, html_class=" ".join(html_classes))
       matches[n] = match
