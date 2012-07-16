@@ -1,9 +1,8 @@
-
 # What programming languages do you use?
 * [[php]]
 * [[python]]
 * [[asp]]
-
+* [[ruby]]
 
 # can anyone recommend a web host?
 * [[linode]] (linode.com)
