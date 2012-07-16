@@ -2,6 +2,16 @@
 import re
 import os
 import sys
+
+def clean_human(cleanme):
+  ret = cleanme.replace("_"," ")
+  return ret
+
+def clean_filesystem(cleanme):
+  ret = cleanme.replace(" ","_")
+  return ret
+
+ 
 def get_html_filename(match):
   return "./"+match.replace(" ","_")+".html"
 
@@ -21,6 +31,7 @@ def get_link(match):
   else: 
     return """<a class="{html_class}" href="{html_filename}">{match}</a>""".format(html_filename=html_filename, match=match, html_class=" ".join(html_classes))
 
+print "#%s" % clean_human(sys.argv[1])
 for line in sys.stdin:
   matches = re.split("\[\[(.*?)\]\]", line)
   for x,n in ( (matches[n], n ) for n in xrange(len(matches)) ):
