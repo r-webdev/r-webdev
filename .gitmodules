@@ -1,0 +1,3 @@
+[submodule "build/marked"]
+	path = build/marked
+	url = https://github.com/chjj/marked.git
