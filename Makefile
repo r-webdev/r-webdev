@@ -1,7 +1,7 @@
 all:
 	@./build/build.sh
 init:
-	@git submodule add https://github.com/chjj/marked.git build/marked;cd build/marked;make;
+	@git submodule update;cd build/marked;make;
 
 
 clean:

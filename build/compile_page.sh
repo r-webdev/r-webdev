@@ -1,5 +1,5 @@
 #!/bin/sh
-set -eux
+set -eu
 
 filename=$(echo $1 | sed "s/.md$/.html/")
 title=$(basename $(echo $1 | sed "s/.md$//"))

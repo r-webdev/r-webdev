@@ -1,5 +1,5 @@
 #!/bin/sh
-set -eux
+set -eu
 
 export repo_directory=$HOME/r-webdev
 export marked_exec=$HOME/r-webdev/build/marked/bin/marked
