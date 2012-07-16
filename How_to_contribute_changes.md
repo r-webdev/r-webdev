@@ -9,6 +9,7 @@
 #### Tech details in order to build the site on your own
 
 * Please clone this repo into your home folder
-* clone @chjj's markup node.js compiler <a href="https://github.com/chjj/marked.git">https://github.com/chjj/marked.git</a> into your homefolder
-* run make in ~/marked
-* run  make in ~/r-webdev
+* cd into the repo 
+* run $ make init
+* run $ make 
+* commit all modified files
