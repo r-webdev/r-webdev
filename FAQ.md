@@ -1,5 +1,5 @@
 # can anyone recommend a web host?
-*linode (linode.com)
+* linode (linode.com)
 * AWS (aws.amazon.com)
 * slicehost (slicehost.com)
 
@@ -15,7 +15,7 @@
 * Ubuntu 11.10
 
 # What programming languages do you use?
-* [php]
-* [python]
-* [asp]
+* [[php]]
+* [[python]]
+* [[asp]]
 
