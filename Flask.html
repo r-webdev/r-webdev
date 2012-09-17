@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>R-webdev by r-webdev</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a href="./index.html">R-webdev</a></h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="./FAQ.html" class="btn">FAQ</a>
+          <a href="./How_to_contribute_changes.html" class="btn">Contribute</a>
+          <a href="https://github.com/r-webdev/r-webdev" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+<h1>Flask</h1>
+<p><a href="http://flask.pocoo.org/">Flask</a> calls itself a micro-framework. That does <em>not</em> mean that it is not possible to build fully grown web applications. It means that it provides you with the most common and basic things you would expect from a web framework (e.g. URL routing and a bit more). For anything else it lets you choose the tools <em>you</em> want to use and goes out of your way. Nevertheless there are tons of extensions available.
+
+</p>
+<h2>Example application</h2>
+<pre><code>from flask import Flask
+app = Flask(__name__)
+
+@app.route(&quot;/&quot;)
+def hello():
+    return &quot;Hello World!&quot;
+
+if __name__ == &quot;__main__&quot;:
+    app.run()</code></pre>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>
+
