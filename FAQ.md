@@ -15,6 +15,7 @@
 * Coda 2
 * [[Vim]]
 * [[Emacs]]
+* Notepad++
 
 # What operating system do you use?
 * Ubuntu 12.04
